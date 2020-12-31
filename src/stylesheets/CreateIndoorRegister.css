@@ -1,0 +1,18 @@
+.CreateIndoorRegister {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.CreateIndoorRegister-Form {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-evenly;
+}
+@media (max-width: 769px) {
+  .CreateIndoorRegister-Form {
+    width: 90%;
+  }
+}

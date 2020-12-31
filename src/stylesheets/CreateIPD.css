@@ -1,0 +1,39 @@
+.CreateIPD {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.CreateIPD-Form {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-evenly;
+}
+.CreateIPD-FormDiv1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  text-align: start;
+}
+.CreateIPD-FormDiv2 {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  text-align: start;
+}
+.CreateIPD-FormDiv3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  text-align: start;
+}
+@media (max-width: 769px) {
+  .CreateIPD-Form {
+    width: 90%;
+  }
+}

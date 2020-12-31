@@ -1,0 +1,21 @@
+.Login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Login-Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 35vh;
+  width: 40vw;
+}
+.Login-FormContainer {
+  padding: 1rem;
+}
+@media (max-width: 376px) {
+  .Login-Form {
+    width: 80vw;
+  }
+}

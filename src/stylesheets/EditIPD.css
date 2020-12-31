@@ -1,0 +1,46 @@
+.EditIPD {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.EditIPD-SearchFrom {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.EditIPD-Form {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-evenly;
+}
+.EditIPD-FormDiv1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  text-align: start;
+}
+.EditIPD-FormDiv2 {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  text-align: start;
+}
+.EditIPD-FormDiv3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  text-align: start;
+}
+@media (max-width: 769px) {
+  .EditIPD-Form,
+  .EditIPD-SearchFrom {
+    width: 90%;
+  }
+}
