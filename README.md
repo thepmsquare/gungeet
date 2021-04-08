@@ -1,1 +1,1 @@
-# Hospital Management System (Archived)
+# Hospital Management System (Abandoned)
